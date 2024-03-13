@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="language">Language:</label><br>
+                <input type="checkbox" id="english" name="language" value="English">
+                <label for="english">English</label><br>
+                <input type="checkbox" id="hindi" name="language" value="Hindi">
+                <label for="hindi">Hindi</label><br>
+
+                <label for="course">Course:</label><br>
+                <input type="radio" id="ba" name="course" value="BA">
+                <label for="ba">BA</label><br>
+                <input type="radio" id="bca" name="course" value="BCA">
+                <label for="bca">BCA</label><br>
+                <input type="radio" id="mca" name="course" value="MCA">
+                <label for="mca">MCA</label><br>
+                <input type="radio" id="btech" name="course" value="BTech">
+                <label for="btech">BTech</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Income</legend>
+                <label for="slab">Select income slab:</label>
+                <select name="income">
+                    <option value="0-50K">0-50K</option>
+                    <option value="51-100K">51-100K</option>
+                    <option value="more than 100K">more than 100K</option>
+                </select><br>
+            </fieldset>
+
+            <input type="submit" value="Save">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+</body>
+</html>
